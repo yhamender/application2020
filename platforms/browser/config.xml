@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ionicframework.greenschool845333" version="0.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <feature name="Camera">
+        <param name="browser-package" value="Camera" />
+    </feature>
+    <name>GSP</name>
+    <description>
+        A mobile application for filling the Green School Programme audit.
+    </description>
+    <author email="contact@studiotesseract.biz" href="http://studio-tesseract.com/">
+      Studio Tesseract
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access launch-external="yes" origin="http://*" />
+    <access launch-external="yes" origin="https://*" />
+    <allow-navigation href="http://192.168.0.36:8100" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="FadeSplashScreenDuration" value="2000" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+</widget>
